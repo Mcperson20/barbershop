@@ -1,0 +1,33 @@
+.autor{
+    // display: table;
+    .autor__img{
+        width: 180px;
+        border-radius: 50%;
+    }
+    .autor__nombre{
+        font-family: $playfair;
+        font-weight: $playfair-black-italic;
+        font-size: 24px;
+        font-style: italic;
+        padding-top: 50px;
+    }
+    .autor__datos{
+        font-family: $roboto-light;
+        font-size: 20px;
+        color: #D76C69;
+    }
+    .autor__descripcion{
+        font-family: $roboto-regular;
+        font-size: 14px;
+        line-height: 3;
+        padding-top: 25px;
+    }
+    @media (max-width: 576px) {
+        .autor__nombre{
+            text-align: center;
+        }
+        .autor__datos{
+            text-align: center;
+        }
+    }
+}

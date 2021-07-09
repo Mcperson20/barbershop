@@ -1,0 +1,23 @@
+.paginacion{
+    background-color: #E6E7E7;
+
+    .btn-anterior{
+        border-top-left-radius: 20px !important;
+        border-bottom-left-radius: 20px !important;
+    }
+    .btn-siguiente{
+        border-top-right-radius: 20px !important;
+        border-bottom-right-radius: 20px !important;
+    }
+    li > a
+    {
+        background-color: white;
+        color: grey;
+    }
+    .active > a
+    {
+        color: white;
+        background-color: grey !Important;
+        border: solid 1px grey !Important;
+    }
+}

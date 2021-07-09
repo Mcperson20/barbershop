@@ -1,0 +1,36 @@
+header{
+    background-image: url("../images/post-image.jpg");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+
+    #recuadro{
+        width: 650px;
+        padding-top: 200px;
+    }
+
+    h1{
+        font-family: $playfair;
+        font-weight: $playfair-black-italic;
+        font-size: 70px;
+        font-style: italic;
+    }
+
+    i{
+        // position: absolute;
+        padding-top: 230px;
+    }
+    
+    @media (max-width: 576px) {
+        height: 640px;
+        h1{
+            font-size: 40px;
+        }
+        #recuadro{
+            width: 350px;
+        }
+        i{
+            padding-top: 200px;
+        }
+    }
+}
