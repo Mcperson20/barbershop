@@ -10793,6 +10793,11 @@ h6, .h6 {
   font-family: "Playfair Display", serif;
   font-size: 18px;
 }
+@media (max-width: 576px) {
+  h6, .h6 {
+    font-size: 16px;
+  }
+}
 
 article {
   font-family: "Roboto", sans-serif;
@@ -10800,6 +10805,11 @@ article {
 article p {
   line-height: 3;
   margin: 30px 0;
+}
+@media (max-width: 576px) {
+  article #botones {
+    text-align: center;
+  }
 }
 
 .autor .autor__img {
