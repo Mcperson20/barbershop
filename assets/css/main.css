@@ -10748,11 +10748,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+nav {
+  background-color: #121619;
+}
 nav img {
   width: 80px;
 }
 nav .active {
-  color: #DE8684 !important;
+  color: #d76c69 !important;
 }
 
 header {
@@ -10855,13 +10858,16 @@ article p {
   border-bottom-right-radius: 20px !important;
 }
 .paginacion li > a {
-  background-color: white;
-  color: grey;
+  background-color: #fff;
+  color: #d1d1d1;
 }
 .paginacion .active > a {
   color: white;
-  background-color: grey !important;
-  border: solid 1px grey !important;
+  background-color: #6c6e70 !important;
+  border: solid 1px #d1d1d1 !important;
+}
+.paginacion .justify-content-center {
+  background-color: #e6e7e7;
 }
 
 footer {

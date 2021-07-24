@@ -11,13 +11,16 @@
     }
     li > a
     {
-        background-color: white;
-        color: grey;
+        background-color: $white;
+        color: $lightgray;
     }
     .active > a
     {
         color: white;
-        background-color: grey !Important;
-        border: solid 1px grey !Important;
+        background-color: $nickel !Important;
+        border: solid 1px $lightgray !Important;
+    }
+    .justify-content-center{
+        background-color: $platinum;
     }
 }
