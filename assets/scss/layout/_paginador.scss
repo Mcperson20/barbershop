@@ -9,16 +9,22 @@
         border-top-right-radius: 20px !important;
         border-bottom-right-radius: 20px !important;
     }
-    li > a
+    li
     {
-        background-color: $white;
-        color: $lightgray;
+        & a
+        { 
+            background-color: $white;
+            color: $lightgray;
+        }
     }
-    .active > a
+    .active
     {
-        color: white;
-        background-color: $nickel !Important;
-        border: solid 1px $lightgray !Important;
+        & a
+        {
+            color: white;
+            background-color: $nickel !Important;
+            border: solid 1px $lightgray !Important;
+        }
     }
     .justify-content-center{
         background-color: $platinum;
